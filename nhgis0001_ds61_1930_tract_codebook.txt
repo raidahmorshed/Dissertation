@@ -1,0 +1,322 @@
+--------------------------------------------------------------------------------
+Codebook for NHGIS data file 'nhgis0001_ds61_1930_tract'
+--------------------------------------------------------------------------------
+ 
+Contents
+    - Data Summary
+    - Data Dictionary
+    - Citation and Use
+ 
+Additional documentation on NHGIS data sources is available at: 
+    https://www.nhgis.org/documentation/tabular-data 
+ 
+--------------------------------------------------------------------------------
+Data Summary
+--------------------------------------------------------------------------------
+ 
+Year:             1930
+Geographic level: Census Tract (by State--County)
+Dataset:          1930 Census: Family & Housing Data [Tracts: Suburban Cleveland OH]
+   NHGIS code:    1930_tFH_sCle
+   NHGIS ID:      ds61
+ 
+Tables:
+ 
+1. Families
+   Universe:    Families
+   Source code: NT1
+   NHGIS code:  BK6
+ 
+2. White Families
+   Universe:    Families with White Head
+   Source code: NT2
+   NHGIS code:  BLG
+ 
+3. Native White Families
+   Universe:    Families with Native White Head
+   Source code: NT3
+   NHGIS code:  BLH
+ 
+4. Families by Race, Nativity and Parentage of Head
+   Universe:    Families
+   Source code: NT4
+   NHGIS code:  BLI
+ 
+5. Families with Foreign-Born White Head by Place of Birth
+   Universe:    Families with Foreign-Born White Head
+   Source code: NT5
+   NHGIS code:  BLJ
+ 
+6. Family Size
+   Universe:    Families
+   Source code: NT6
+   NHGIS code:  BLK
+ 
+7. Homes
+   Universe:    Homes
+   Source code: NT7
+   NHGIS code:  BLL
+ 
+8. Tenure
+   Universe:    Homes
+   Source code: NT8
+   NHGIS code:  BLM
+ 
+9. Home Value
+   Universe:    Owned Homes
+   Source code: NT9
+   NHGIS code:  BLN
+ 
+10. Rent Paid
+    Universe:    Rented Homes
+    Source code: NT10
+    NHGIS code:  BK7
+ 
+11. Families
+    Universe:    Families
+    Source code: NT11
+    NHGIS code:  BK8
+ 
+12. Dwellings
+    Universe:    Dwellings
+    Source code: NT13
+    NHGIS code:  BLA
+ 
+13. Dwelling Type
+    Universe:    Dwellings
+    Source code: NT14
+    NHGIS code:  BLB
+ 
+14. Quasi-Family Groups
+    Universe:    Quasi-Family Groups
+    Source code: NT15
+    NHGIS code:  BLC
+ 
+15. Population in Quasi-Family Groups
+    Universe:    Persons in Quasi-Family Groups
+    Source code: NT16
+    NHGIS code:  BLD
+ 
+16. Quasi-Family Group Types
+    Universe:    Quasi-Family Groups
+    Source code: NT17
+    NHGIS code:  BLE
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Context Fields 
+    GISJOIN:     GIS Join Match Code
+    YEAR:        Data File Year
+    STATE:       State Name
+    STATEA:      State Code
+    COUNTY:      County Name
+    COUNTYA:     County Code
+    PRETRACTA:   Census Tract Prefix Code
+    TRACTA:      Census Tract Code
+    POSTTRCTA:   Census Tract Suffix Code
+    AREANAME:    Area name
+    GNOTES:      Notes
+ 
+Table 1:     Families
+Universe:    Families
+Source code: NT1
+NHGIS code:  BK6
+    BK6001:      Total
+ 
+Table 2:     White Families
+Universe:    Families with White Head
+Source code: NT2
+NHGIS code:  BLG
+    BLG001:      Total
+ 
+Table 3:     Native White Families
+Universe:    Families with Native White Head
+Source code: NT3
+NHGIS code:  BLH
+    BLH001:      Total
+ 
+Table 4:     Families by Race, Nativity and Parentage of Head
+Universe:    Families
+Source code: NT4
+NHGIS code:  BLI
+    BLI001:      White: Native white persons with native white parents
+    BLI002:      White: Native white persons with foreign born or mixed parents
+    BLI003:      White: Foreign born whites
+    BLI004:      Negroes
+    BLI005:      Other
+ 
+Table 5:     Families with Foreign-Born White Head by Place of Birth
+Universe:    Families with Foreign-Born White Head
+Source code: NT5
+NHGIS code:  BLJ
+    BLJ001:      Great Britain and Northern Ireland
+    BLJ002:      Irish Free State
+    BLJ003:      Norway
+    BLJ004:      Sweden
+    BLJ005:      Denmark
+    BLJ006:      Germany
+    BLJ007:      Poland
+    BLJ008:      Czechoslovakia
+    BLJ009:      Austria
+    BLJ010:      Hungary
+    BLJ011:      Russia
+    BLJ012:      Rumania
+    BLJ013:      Italy
+    BLJ014:      Canada
+    BLJ015:      All other
+ 
+Table 6:     Family Size
+Universe:    Families
+Source code: NT6
+NHGIS code:  BLK
+    BLK001:      1 person
+    BLK002:      2 persons
+    BLK003:      3 persons
+    BLK004:      4 persons
+    BLK005:      5 persons
+    BLK006:      6 persons
+    BLK007:      7 persons
+    BLK008:      8 persons
+    BLK009:      9 persons
+    BLK010:      10 persons
+    BLK011:      11 persons
+    BLK012:      12 or more persons
+ 
+Table 7:     Homes
+Universe:    Homes
+Source code: NT7
+NHGIS code:  BLL
+    BLL001:      Total
+ 
+Table 8:     Tenure
+Universe:    Homes
+Source code: NT8
+NHGIS code:  BLM
+    BLM001:      Owned homes
+    BLM002:      Rented homes
+    BLM003:      Unknown
+ 
+Table 9:     Home Value
+Universe:    Owned Homes
+Source code: NT9
+NHGIS code:  BLN
+    BLN001:      Less than $1000
+    BLN002:      $1000 to $1499
+    BLN003:      $1500 to $1999
+    BLN004:      $2000 to $2999
+    BLN005:      $3000 to $4999
+    BLN006:      $5000 to $7499
+    BLN007:      $7500 to $9999
+    BLN008:      $10000 to $14999
+    BLN009:      $15000 to $19999
+    BLN010:      $20000 and over
+    BLN011:      Unknown
+ 
+Table 10:    Rent Paid
+Universe:    Rented Homes
+Source code: NT10
+NHGIS code:  BK7
+    BK7001:      Less than $1000
+    BK7002:      $1000 to $1499
+    BK7003:      $1500 to $1999
+    BK7004:      $2000 to $2999
+    BK7005:      $3000 to $4999
+    BK7006:      $5000 to $7499
+    BK7007:      $7500 to $9999
+    BK7008:      $10000 to $14999
+    BK7009:      $15000 to $19999
+    BK7010:      $20000 and over
+    BK7011:      Unknown
+ 
+Table 11:    Families
+Universe:    Families
+Source code: NT11
+NHGIS code:  BK8
+    BK8001:      Total
+ 
+Table 12:    Dwellings
+Universe:    Dwellings
+Source code: NT13
+NHGIS code:  BLA
+    BLA001:      Total
+ 
+Table 13:    Dwelling Type
+Universe:    Dwellings
+Source code: NT14
+NHGIS code:  BLB
+    BLB001:      1 family
+    BLB002:      2 family
+    BLB003:      3 or more families
+ 
+Table 14:    Quasi-Family Groups
+Universe:    Quasi-Family Groups
+Source code: NT15
+NHGIS code:  BLC
+    BLC001:      Total
+ 
+Table 15:    Population in Quasi-Family Groups
+Universe:    Persons in Quasi-Family Groups
+Source code: NT16
+NHGIS code:  BLD
+    BLD001:      Total
+ 
+Table 16:    Quasi-Family Group Types
+Universe:    Quasi-Family Groups
+Source code: NT17
+NHGIS code:  BLE
+    BLE001:      Hotels
+    BLE002:      Boarding and lodging houses
+    BLE003:      Schools
+    BLE004:      Institutions
+    BLE005:      Crews of vessels
+    BLE006:      Other
+ 
+--------------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* REDISTRIBUTION: You will not redistribute the data without permission.
+
+  You may publish a subset of the data to meet journal requirements for accessing 
+  data related to a particular publication. Contact us for permission for any other 
+  redistribution; we will consider requests for free and commercial redistribution.
+
+* CITATION: You will cite NHGIS appropriately.
+
+    * Publications and research reports employing NHGIS data (either tabular or GIS) 
+      should include the following citation:
+
+        Steven Manson, Jonathan Schroeder, David Van Riper, Katherine Knowles, Tracy Kugler, Finn Roberts, and Steven Ruggles.
+        IPUMS National Historical Geographic Information System: Version 18.0 
+        [dataset]. Minneapolis, MN: IPUMS. 2023.
+        http://doi.org/10.18128/D050.V18.0
+
+    * For policy briefs, online resources, or articles in the popular press, we 
+      recommend that you cite the use of NHGIS data as follows:
+
+        IPUMS NHGIS, University of Minnesota, www.nhgis.org.
+
+These terms of use are a legally binding agreement. You can use the data only in 
+accordance with these terms, and any other use is a violation of the agreement. 
+Violations may result in revocation of the agreement and prohibition from using other 
+IPUMS data. If IPUMS or our partners are harmed from your violation, you are 
+responsible for all damages, including reasonable attorney's fees and expenses.
+        
+In addition, we request that users send us a copy of any publications, research
+reports, or educational material making use of the data or documentation.
+
+Send electronic material to: nhgis@umn.edu
+
+Printed matter should be sent to:
+
+    IPUMS NHGIS
+    Institute for Social Research and Data Innovation
+    University of Minnesota
+    50 Willey Hall
+    225 19th Ave S
+    Minneapolis, MN 55455
